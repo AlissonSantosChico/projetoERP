@@ -19,7 +19,9 @@ namespace projetoERP
 
         private void Form_consiliação_Load(object sender, EventArgs e)
         {
-
+            dataGridView1.Rows.Add("12/10/2025", "Gabriel Souza", "Boleto", "Banrisul", "Pago");
+            dataGridView1.Rows.Add("05/03/2026", "Vinicius de Mello", "Cartão", "Nubank", "Em aberto");
+            dataGridView1.Rows.Add("06/05/2026", "Jorge Santos", "Dinheiro", "Caixa", "Em aberto");
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
