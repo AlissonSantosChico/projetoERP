@@ -65,7 +65,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { cadastroToolStripMenuItem, operaçõesToolStripMenuItem, relátoriosToolStripMenuItem, configuraçõesToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(684, 24);
+            menuStrip1.Size = new Size(714, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -194,7 +194,7 @@
             toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButton1, toolStripButton2, toolStripButton3, toolStripButton4, toolStripButton5, toolStripButton6 });
             toolStrip1.Location = new Point(0, 24);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(684, 37);
+            toolStrip1.Size = new Size(714, 37);
             toolStrip1.TabIndex = 1;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -259,14 +259,14 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(684, 461);
+            ClientSize = new Size(714, 461);
             Controls.Add(toolStrip1);
             Controls.Add(menuStrip1);
             ForeColor = SystemColors.ControlText;
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
-            MaximumSize = new Size(700, 500);
-            MinimumSize = new Size(700, 500);
+            MaximumSize = new Size(730, 500);
+            MinimumSize = new Size(730, 500);
             Name = "Menustrip";
             Text = "Form1";
             WindowState = FormWindowState.Maximized;
